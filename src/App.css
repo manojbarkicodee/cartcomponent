@@ -1,12 +1,30 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+#cartitem{
+  display:flex;
+  justify-content: space-between;
+  place-items:center;
+  margin-bottom: 40px;
+}
+#cartcantainer{
+  width: 30%;
+  margin: auto;
+color: red;
+}
+#button{
+background-color: #61dafb;
+border: 0px ;
+}
+#qty{
+  display: flex;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
